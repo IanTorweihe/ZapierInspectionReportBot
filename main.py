@@ -8,7 +8,7 @@ import email_parser
 
 app = Flask(__name__)
 auth = HTTPBasicAuth()
-# username and password environment variables 
+# username and password env variables 
 my_secret_usr = os.environ['username']
 my_secret_psswd = os.environ['password']
 
