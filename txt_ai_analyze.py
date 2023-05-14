@@ -12,7 +12,7 @@ def ai_location_search(pdf_txt):
   
   Input: pdf_text string 
   
-  Return: Locations or no location notification as string
+  Return: Locations or no location notification as string.
   '''
   #split text at fixed text marker in document. Replace as needed.
   split_flag = "some fixed substring marker in text extract"
